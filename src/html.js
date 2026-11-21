@@ -10,7 +10,12 @@ export default function HTML(props) {
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, minimum-scale=1, user-scalable=no" />
 
                 {/* reset css */}
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"></link>
+                <link
+                    rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+                    integrity="sha384-DpmCTkC67qMoTNUZ0BqITrIR49YGJtkzDpT6CMk+ob+xIIVRaq9Jk0zstXlJjokR"
+                    crossOrigin="anonymous"
+                ></link>
 
                 {/* md css */}
                 <link
