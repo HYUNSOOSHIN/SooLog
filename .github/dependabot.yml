@@ -5,11 +5,16 @@ updates:
       directory: /
       schedule:
           interval: monthly
+      # 자동 머지라서 악성 릴리스가 걸러질 시간을 둠
+      cooldown:
+          default-days: 7
 
     - package-ecosystem: npm
       directory: /
       schedule:
           interval: monthly
+      cooldown:
+          default-days: 7
       # Gatsby 5는 React 18 기준이라 메이저 업그레이드는 제외
       ignore:
           - dependency-name: "*"
